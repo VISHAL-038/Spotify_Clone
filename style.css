@@ -134,8 +134,9 @@ nav ul li{
     }
 
     .songItem {
-        height: 40px;
+        height: 50px;
         margin: 8px 0;
+        width: auto;
     }
 
     .songItem img {
