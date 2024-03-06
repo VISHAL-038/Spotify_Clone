@@ -115,8 +115,80 @@ nav ul li{
     transition: opacity 0.4s ease-in;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 600px) {
     body {
-      background-color: whitesmoke;
+        background-color: whitesmoke;
     }
-  }
+
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .brand {
+        font-size: 1.1rem;
+    }
+
+    .songItemContainer {
+        margin-top: 30px;
+    }
+
+    .songItem {
+        height: 40px;
+        margin: 8px 0;
+    }
+
+    .songItem img {
+        width: 30px;
+        margin: 0 10px;
+    }
+
+    .timestamp {
+        margin: 0 10px;
+    }
+
+    .icons {
+        margin-top: 8px;
+    }
+
+    #myProgressBar {
+        width: 90vw;
+    }
+
+    .bottom {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 130px;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    .bottom input[type="range"] {
+        width: 70%;
+    }
+
+    .icons i {
+        font-size: 2rem;
+        cursor: pointer;
+    }
+
+    .songInfo {
+        display: flex;
+        align-items: center;
+    }
+
+    .songInfo img {
+        width: 30px;
+        margin-right: 10px;
+    }
+
+    #masterSongName {
+        font-size: 0.9rem;
+    }
+}
